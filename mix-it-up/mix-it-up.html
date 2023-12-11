@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta data -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mix-it-up</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="mix-it-up.css" />
+    <link rel="stylesheet" href="../css/media.css" />
+  </head>
+  <body class="container">
+
+    <div class="btn-tabs my-5 text-center">
+        <button type="button" class="btn btn-primary" data-filter="all">All</button>
+        <button type="button" class="btn btn-info" data-filter=".food">Food</button>
+        <button type="button" class="btn btn-secondary" data-filter=".animal">Animal</button>
+        <button type="button" class="btn btn-danger" data-filter=".sports">Sports</button>
+        <button type="button" class="btn btn-success" data-filter=".learning">Learning</button>
+    </div>
+
+    <div class="tab-container">
+        <div class="mix food">
+            <img src="../images/food-1.jpg" alt="" class="w-100">
+            <img src="../images/food-2.jpg" alt="" class="w-100">
+            <img src="../images/food-3.jpg" alt="" class="w-100">
+        </div>
+        <div class="mix animal mt-3">
+            <img src="../images/animal-1.jpg" alt="" class="w-100">
+            <img src="../images/animal-2.jpg" alt="" class="w-100">
+            <img src="../images/animal-3.jpg" alt="" class="w-100">
+        </div>
+        <div class="mix sports mt-3">
+            <img src="../images/sports-1.jpg" alt="" class="w-100">
+            <img src="../images/sports-2.jpg" alt="" class="w-100">
+            <img src="../images/sports-3.jpg" alt="" class="w-100">
+        </div>
+        <div class="mix learning mt-3">
+            <img src="../images/learning-1.jpg" alt="" class="w-100">
+            <img src="../images/learning-2.jpg" alt="" class="w-100">
+            <img src="../images/learning-3.jpg" alt="" class="w-100">
+        </div>
+    </div>
+    
+
+    <!-- js script -->
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../vendor/mix-it-up/mixitup.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="mix-it-up.js"></script>
+  </body>
+</html>
