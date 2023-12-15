@@ -1,0 +1,7 @@
+.my-paroller{
+    background-image: url('../../images/parallax-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
