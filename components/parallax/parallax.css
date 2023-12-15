@@ -1,0 +1,8 @@
+.parallax-window {
+	min-height: 700px;
+	background: transparent;
+}
+.c-parallax-text{
+    padding: 350px 300px 0;
+    color: white;
+}
