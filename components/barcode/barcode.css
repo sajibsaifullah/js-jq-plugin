@@ -1,0 +1,38 @@
+* {
+  color: #000000;
+  font-size: 16px;
+  font-weight: normal;
+}
+#barcodeValue[value]{
+    color: #7F7F7F
+}
+#config {
+  margin-bottom: 10px;
+  height: 360px;
+}
+.config {
+  padding: 10px;
+  float: left;
+  width: 230px;
+  height: 353px;
+  border: 1px solid #000;
+}
+.config .title {
+    margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+.config .barcode2D,
+#miscCanvas {
+  display: none;
+}
+.config input {
+    margin-bottom: 5px;
+}
+#submit {
+  clear: both;
+}
+#barcodeTarget,
+#canvasTarget {
+  margin-top: 20px;
+}
