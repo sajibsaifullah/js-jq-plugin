@@ -1,0 +1,15 @@
+
+
+body {
+  margin: 150px auto;
+  background-color: aquamarine;
+}
+
+.swiper-pagination-bullet{
+    opacity: 1;
+}
+
+:root {
+    --swiper-theme-color: #ffffff;
+    --swiper-navigation-size: 30px;
+}
