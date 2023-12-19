@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(248, 255, 227);
+  }
+  .container {
+    margin: 150px auto;
+    max-width: 960px;
+  }
+  #target {
+    margin: 100px auto;
+    width: 500px;
+    height: 400px;
+  }
